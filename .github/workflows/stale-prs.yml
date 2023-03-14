@@ -1,4 +1,5 @@
 name: 'Close stale PRs'
+run-name: ${{ github.actor }} is learning GitHub Actions see if cron job ever runs
 on:
   workflow_dispatch:
   schedule:
